@@ -1,0 +1,9 @@
+<br />
+<b>Notice</b>:  Undefined variable: _SESSION in <b>C:\xampp\htdocs\bbs\bbs3.php</b> on line <b>3</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type null in <b>C:\xampp\htdocs\bbs\bbs3.php</b> on line <b>3</b><br />
+string(8) "bbs3.php"
+NULL
+string(8) "bbs3.php"
+string(8) "bbs3.php"
+string(12) "ちっひー"

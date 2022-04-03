@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    /*width: 1200px;*/
+    margin: 0;
+    font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    padding: 0px 15px;
+    background-color: #646363;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    display: flex;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .logo {
+    font-size: 25px;
+  }
+  
+  nav {
+    margin: 0 0 0 auto;
+  }
+  
+.loginname {
+margin-top: 18px;
+margin-right: 15px;
+color: #fff;
+}
+  
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+p {
+    color: #000000;
+}
+  
+a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    line-height: 60px;
+    padding: 0 20px;
+    position: relative;
+}
+  
+li ::after {
+    position: absolute; 
+    bottom: 10px; 
+    left: 0;
+    content: ''; 
+    width: 100%; 
+    height: 2px; 
+    background: #000000; 
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform 0.75s;
+}
+  
+li :hover::after {
+    transform: scale(1, 1); 
+}
+
+.pic {
+    width: 100%;
+}
+
+.container {
+    margin-top: 71px;
+    margin-left: 52px;
+    margin-right: 32px;
+}
+
+.FooterSection {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #383257;
+    }
+    
+    .Footer-Inner {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1200px;
+      width: 100%;
+    }
+      
+    .Footer-Inner-List {
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      max-width: 600px;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    @media screen and (max-width: 540px) {
+      .Footer-Inner-List {
+      flex-wrap: wrap;
+      justify-content: center;
+      }
+    }
+    
+    .Footer-Inner-List-Item {
+      margin-right: 24px;
+      padding-left: 81px;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      font-size: 15px;
+    }
+    
+    @media screen and (max-width: 540px) {
+      .Footer-Inner-List-Item {
+      margin-right: 0;
+      padding-left: 0;
+      width: 100%;
+      }
+    }
+    
+    .Footer-Inner-List-Item:not(:first-child) {
+      border-left: 1px solid #fff;
+      padding-left: 41px;
+    }
+    
+    @media screen and (max-width: 540px) {
+      .Footer-Inner-List-Item:not(:first-child) {
+      border-left: none;
+      margin-top: 20px;
+      }
+    }
+    
+    .Footer-Inner-CopyRight {
+      margin-top: 20px;
+      text-align: center;
+      padding-right: 21px;
+      color: #fff;
+      font-size: 16px;
+    }

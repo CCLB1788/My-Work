@@ -1,0 +1,2 @@
+mailtrapを利用してメール送信のテスト
+https://qiita.com/denshin_ROKU/items/a9d79494dfff67b64259
